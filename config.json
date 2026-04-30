@@ -1,0 +1,32 @@
+{
+	"log":{
+		"loglevel":"none"
+	},
+	"inbounds":[
+		{
+			"port":8100,
+			"protocol":"vless",
+			"settings":{
+				"clients":[
+					{
+						"id":"92d7586e-4a58-4054-9de3-e8a41bb032ca"
+					}
+				],
+				"decryption":"none"
+			},
+			"streamSettings":{
+				"network":"xhttp",
+				"security":"none",
+				"xhttpSettings":{
+					"path":"/nutuneh",
+					"mode":"packet"
+				}
+			}
+		}
+	],
+	"outbounds":[
+		{
+			"protocol":"freedom"
+		}
+	]
+}
